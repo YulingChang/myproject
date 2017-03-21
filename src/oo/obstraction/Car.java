@@ -1,6 +1,7 @@
 package oo.obstraction;
 
 public class Car {
+	int id;
 	String brand;
 	String name;
 	int cc;
