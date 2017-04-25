@@ -14,7 +14,7 @@ public abstract class Ticket {
 		a.add("123");
 		a.add("456");
 		a.add("789");
-		a.set(0,"010");
+		a.set(1,"010");
 		ArrayList<String> b = new ArrayList();
 		b.add("a");
 		b.add("b");
@@ -24,7 +24,7 @@ public abstract class Ticket {
 		c.add("100");
 		c.add("200");
 		c.add("300");
-		c.set(2,"150");
+		c.set(1,"150");
 		
 
 	}
