@@ -23,7 +23,7 @@ public class Student {
 	}
 	//public static void print()也可以加static但裡面不能包含需要有物件才能產生的東西
 	
-	private String getScore(int score) {
+	protected String getScore(int score) {
 		if (score < pass) {
 			return String.valueOf(score) + "*";// 把資料轉成字串
 		} else {
