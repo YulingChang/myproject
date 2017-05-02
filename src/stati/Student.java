@@ -5,6 +5,12 @@ public class Student {
 	int math;
 	int chinese;
 	static int pass = 60;// static讓全部使用同一個資料
+	static{
+		System.out.println(pass);
+	}
+	public Student(){
+		
+	}
 
 	public Student(int english, int math, int chinese) {
 		super();
