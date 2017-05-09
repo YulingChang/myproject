@@ -5,7 +5,8 @@ import java.util.ArrayList;
 public class Tester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
 		System.out.println(Student.pass);// static不用生物件就已經存在一個值
 		Student stu1 = new Student(50, 90, 80);
 		Student stu2 = new Student(60, 58, 80);

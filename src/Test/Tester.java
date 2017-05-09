@@ -7,7 +7,9 @@ import stati.Student;
 
 public class Tester {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
+		Student stu = new Student();
+		System.out.println(stu);
 		Car c = new Car("Toyota", "aa", 2000);
 		ArrayList<String> a = new ArrayList();
 		//String[]numbers = {"331,"821","886","554"} 
@@ -24,7 +26,7 @@ public class Tester {
 	      String data=a.get(0);
 	 //     int n = (int)a.get(4);
 	      System.out.println(data);
-	      Student stu = new Student();
+	     
 	}
 
 }
