@@ -1,13 +1,17 @@
 package oo.shopping;
 
 public class SilverCustomer extends Customer{
-	int thesis;
+	int amount;
 	public SilverCustomer(int amount){
+		super(amount);
+		this.amount = amount;
 
 	
-		SilverCustomer s1 = new SilverCustomer(8000);
-		SilverCustomer s2 = new SilverCustomer(10000);
 		
+			
+		}
+		public void print() {
+			System.out.println("銀級會員" + "\t"+ "原價:" + amount + " 折扣後:" + Math.round(amount * 0.9) + " 還原金:" + 0);
 
 	}
 

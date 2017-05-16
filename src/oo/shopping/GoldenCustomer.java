@@ -1,12 +1,14 @@
 package oo.shopping;
 
 public class GoldenCustomer extends Customer{
-	int thesis;
+	int amount;
 	public GoldenCustomer(int amount){
+		super(amount);
+		this.amount = amount;
 
-        GoldenCustomer g1 = new GoldenCustomer(30000);
-		GoldenCustomer g2 = new GoldenCustomer(10000);
-
+       
 	}
+	public void print() {
+		System.out.println("金級會員" + "\t"+ "原價:" + amount + " 折扣後:" + Math.round(amount * 0.9) + " 還原金:" + Math.round(amount * 0.05));
 
-}
+}}
