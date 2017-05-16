@@ -2,7 +2,7 @@ package oo.shopping;
 
 import java.util.ArrayList;
 
-import stati.Student;
+
 
 public class Tester {
 
