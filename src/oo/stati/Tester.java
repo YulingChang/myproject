@@ -1,4 +1,4 @@
-package stati;
+package oo.stati;
 
 import java.util.ArrayList;
 

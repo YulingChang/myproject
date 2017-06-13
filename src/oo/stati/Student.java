@@ -1,4 +1,4 @@
-package stati;
+package oo.stati;
 
 public class Student {
 	int english;

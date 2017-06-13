@@ -3,7 +3,7 @@ package oo.test;
 import java.util.ArrayList;
 
 import oo.obstraction.Car;
-import stati.Student;
+import oo.stati.Student;
 
 public class Tester {
 
