@@ -9,7 +9,6 @@ public class GoldenCustomer extends Customer  {
 
 	@Override
 	public void print() {
-		// TODO Auto-generated method stub
 
 		System.out.println(price + "\t" + (price * discount) + "\t" + (price * returnRate));
 	}
