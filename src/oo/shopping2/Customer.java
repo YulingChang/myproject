@@ -8,6 +8,6 @@ public abstract class Customer {
 		this.price = price;
 	}
 
-	public abstract void print();//©â¶H
+	public abstract void print();//æŠ½è±¡
 
 }

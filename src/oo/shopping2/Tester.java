@@ -15,26 +15,26 @@ public class Tester {
 		clist.add(new NormalCustomer(8000));
 		clist.add(new GoldenCustomer(5000));
 		System.out.println("*:GoldenCustomer");
-		System.out.println("»ù¿ú" + "\t" + "§é¦©«á»ù¿ú" + "\t" + "ÁÙ­ìª÷");
+		System.out.println("åƒ¹éŒ¢" + "\t" + "æŠ˜æ‰£å¾Œ" + "\t" + "é‚„åŸé‡‘");
 		for (Customer c : clist) {
-			// instanceof ¬İ¥L¬OÄİ©ó­ş¸Ìªº
-			// §â¥kÃäªºclist±q²Ä¤@µ§¨ì³Ì«á¤@µ§·Ó¶¶§Ç©ñ¤J¥ªÃäªºCustomer c
-			
+			// instanceof çœ‹ä»–æ˜¯å±¬æ–¼å“ªè£¡çš„
+			// æŠŠå³é‚Šçš„clistå¾ç¬¬ä¸€ç­†åˆ°æœ€å¾Œä¸€ç­†ç…§é †åºæ”¾å…¥å·¦é‚Šçš„Customer c
+			if (c instanceof GoldenCustomer)) {
+				System.out.print("*");
 				// SilverCustomer silver = (SilverCustomer) c;
-				// ¤÷Ãş§Oªº°Ñ·Ó¥i¥H©ñ¸m¤lÃş§Oªºª«¥ó §âcÂà¦¨»È ¦A©ñ¨ì»È
-				// ¯u¬O§xÃø
+				// çˆ¶é¡åˆ¥çš„åƒç…§å¯ä»¥æ”¾ç½®å­é¡åˆ¥çš„ç‰©ä»¶ æŠŠcè½‰æˆéŠ€ å†æ”¾åˆ°éŠ€
+				
 
-			
+			}
 			if (c instanceof GoldenCustomer) {
 				System.out.print("*");
 			}
 
 			/*
-			 * ¥H¤U¬°­ì¥»ªº¤èªk if(c instanceof SilverCustomer &&!(c instanceof
+			 * ä»¥ä¸‹ç‚ºåŸæœ¬çš„æ–¹æ³• if(c instanceof SilverCustomer &&!(c instanceof
 			 * GoldenCustomer)){ System.out.print("*"); } if(c instanceof
 			 * GoldenCustomer){ System.out.print("~"); }
 			 */
-
 			c.print();
 		}
 

@@ -4,7 +4,7 @@ public class GoldenCustomer extends Customer  {
 	float returnRate = 0.05f;
 
 	public GoldenCustomer(int price) {
-		super(price);// ©I¥s¤÷Ãş§O«Øºc¤l
+		super(price);// å‘¼å«çˆ¶é¡åˆ¥å»ºæ§‹å­
 	}
 
 	@Override
